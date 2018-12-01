@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SSLTestProject</string>
+    <string name="app_name">SSL Assignment</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login and sign up -->
     <string name="prompt_name">Your Name</string>
