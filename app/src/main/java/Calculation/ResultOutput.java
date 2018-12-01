@@ -24,16 +24,10 @@ public class ResultOutput {
             {
                 sum=sum+data.get(j);
                 result[j]=data.get(j);
-                //System.out.print(data.get(j) + " ");
             }
             if(sum<=duration)
             {
                 resultList.add(result);
-	        	/*for (int j = 0; j < r; j++)
-	        	{
-		        	System.out.print(result[j] + " ");
-		        }
-	        	System.out.println("");*/
             }
 
             return;
@@ -59,22 +53,7 @@ public class ResultOutput {
         // Print all combination using temporary array 'data'
         combinationUtil(list, data, 0, n - 1, 0, r);
 
-	   /* for(int[] result:resultList)
-	    {
-	    	int[]x=result;
-	    	for(int i=0;i<x.length;i++)
-	    	{
-	    		System.out.println(result[i]);
-	    	}
-	    }*/
-
-        for (int i=0;i<resultList.size();i++)
-        {
-
-           // Log.e("ResultOutput:",Arrays.toString(resultList.get(i)));
-
-        }
-        Log.e("ResultOutput:","Size of resultLIst: "+resultList.size()+"\n");
+       // Log.e("ResultOutput:","Size of resultLIst: "+resultList.size()+"\n");
 
         return resultList;
     }

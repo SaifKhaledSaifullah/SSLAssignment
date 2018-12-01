@@ -21,7 +21,6 @@ public class FragmentUtilities {
 
     }
 
-
     /*Add new Fragment
      * @param int fragmentLayout -the layout to be displayed with the fragment
      * @param Fragment - The instance of the fragment to be added

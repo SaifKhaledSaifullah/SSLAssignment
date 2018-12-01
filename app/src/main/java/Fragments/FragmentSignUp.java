@@ -60,6 +60,7 @@ public class FragmentSignUp extends Fragment implements View.OnClickListener, Ne
         view = inflater.inflate(R.layout.fragment_sign_up, container, false);
         //Create an instance of ApiInterface
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
+        // Create instance of Communication Presenter
         communicationPresnter = new CommunicationPresenterImpl(FragmentSignUp.this);
 
         // Initializing Views

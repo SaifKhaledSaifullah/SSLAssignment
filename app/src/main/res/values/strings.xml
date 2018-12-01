@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">SSL Assignment</string>
-    <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login and sign up -->
     <string name="prompt_name">Your Name</string>
     <string name="prompt_email">Email</string>
@@ -13,13 +12,6 @@
 
     <string name="no_internet_connection_message">Please check your internet connection</string>
     <string name="error_message">Please enter correct email and password</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
 
     <!-- Strings related to Ad Input-->
     <string name="email">foobaar@gmail.com</string>

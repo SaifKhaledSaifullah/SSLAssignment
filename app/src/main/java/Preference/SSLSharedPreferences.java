@@ -28,8 +28,7 @@ public class SSLSharedPreferences {
     }
 
     public String getUserEmail(){
-        //if no data is available for Config.USER_NAME then this getString() method returns
-        //a default value that is mentioned in second parameter
+
         return sharedPreferences.getString(AppConfig.USER_EMAIL, "");
     }
 

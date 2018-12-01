@@ -60,6 +60,7 @@ public class FragmentLogin extends Fragment implements NetworkComView {
 
         //Create an instance of ApiInterface
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
+        // Create instance of Communication Presenter
         communicationPresnter = new CommunicationPresenterImpl(FragmentLogin.this);
 
         // set Up UI references
